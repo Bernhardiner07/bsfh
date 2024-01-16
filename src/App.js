@@ -6,6 +6,7 @@ import Navbar from './Navbar/Navbar';
 
 import Home from './Home/Home';
 import Stundenplaene from './Stundenplaene/Stundenplaene';
+import Notiz from './Notiz/Notiz';
 
 
 
@@ -35,6 +36,17 @@ function App() {
               <>
               <Navbar />
                 < Stundenplaene />
+              </>
+            }
+          />
+
+
+<Route
+            path="/notiz"
+            element={
+              <>
+              <Navbar />
+                < Notiz />
               </>
             }
           />
