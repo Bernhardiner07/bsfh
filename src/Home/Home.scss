@@ -1,0 +1,23 @@
+// Home.scss
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; // Vollständige Bildschirmhöhe
+    background-color: #f0f0f0; // Hintergrundfarbe anpassen
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333; // Textfarbe anpassen
+    }
+  
+    p {
+      font-size: 1rem;
+      text-align: center;
+      color: #555; // Textfarbe anpassen
+      max-width: 600px;
+    }
+  }
+  
